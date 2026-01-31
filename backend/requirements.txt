@@ -1,0 +1,46 @@
+# FastAPI and server
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.6
+python-dotenv>=1.0.0
+
+# Database
+sqlalchemy>=2.0.25
+asyncpg>=0.29.0
+alembic>=1.13.1
+pgvector>=0.2.4
+
+# Redis for caching
+redis>=5.0.1
+
+# AI/ML
+openai>=1.12.0
+langchain>=0.1.6
+langchain-openai>=0.0.5
+langchain-community>=0.0.19
+tiktoken>=0.5.2
+
+# Document processing
+pypdf2>=3.0.1
+pdfplumber>=0.10.3
+
+# Audio/Video processing
+pydub>=0.25.1
+
+# Testing
+pytest>=7.4.0,<8.0.0
+pytest-asyncio>=0.21.0,<0.24.0
+pytest-cov>=4.1.0
+httpx>=0.26.0
+pytest-mock>=3.12.0
+
+# Code quality
+black>=24.1.0
+isort>=5.13.0
+flake8>=7.0.0
+
+# Utilities
+pydantic>=2.6.0
+pydantic-settings>=2.1.0
+aiofiles>=23.2.1
+tenacity>=8.2.3
